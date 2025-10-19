@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FungiNourish | Premium Mushrooms from Hawpe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #fafafa;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                  url('https://source.unsplash.com/1600x600/?mushroom,farm') no-repeat center/cover;
+      color: #fff;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background: #43a047;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #2e7d32;
+    }
+    nav {
+      background-color: #1b5e20;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+      text-align: center;
+    }
+    .section h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+      color: #1b5e20;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .product {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 1rem 0 0.5rem;
+    }
+    .product p {
+      padding: 0 1rem 1rem;
+      font-size: 0.95rem;
+    }
+    footer {
+      background-color: #1b5e20;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>FungiNourish</h1>
+    <p>Fresh, Organic Mushrooms from Hawpe, Sri Lanka</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At <strong>FungiNourish</strong>, we believe mushrooms are more than food—they’re nature’s gift for health and flavor. Grown sustainably in the lush fields of Hawpe, our mushrooms are hand-harvested to ensure freshness, nutrition, and taste in every bite.</p>
+  </section>
+
+  <section id="products" class="section">
+    <h2>Our Bestsellers</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://source.unsplash.com/400x300/?oyster-mushroom" alt="Oyster Mushrooms">
+        <h3>Oyster Mushrooms</h3>
+        <p>Soft, delicate, and perfect for stir-fries, soups, and curries.</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x300/?shiitake" alt="Shiitake Mushrooms">
+        <h3>Shiitake</h3>
+        <p>Rich, earthy flavor that elevates gourmet dishes.</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x300/?mushroom-powder" alt="Mushroom Powder">
+        <h3>Mushroom Powder</h3>
+        <p>A nutrient-packed superfood to boost your meals.</p>
+      </div>
+    </div>
+    <a href="#contact" class="btn" style="margin-top:2rem; display:inline-block;">Order Now</a>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>📍 No. 45, Green Valley Road, Hawpe, Sri Lanka</p>
+    <p>📞 +94 76 987 6543</p>
+    <p>📧 hello@funginourish.lk</p>
+    <a href="https://wa.me/94769876543" class="btn">Chat on WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 FungiNourish. Grown with care in Hawpe, Sri Lanka.
+  </footer>
+
+</body>
+</html>
